@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net9.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>Assets\AppIcon.ico</ApplicationIcon>
+    <Win32Icon>Assets\AppIcon.ico</Win32Icon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CommunityToolkit.Mvvm" Version="8.4.0" />
+    <PackageReference Include="System.Drawing.Common" Version="10.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\**" />
+  </ItemGroup>
+
+</Project>
